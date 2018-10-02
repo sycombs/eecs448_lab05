@@ -1,0 +1,65 @@
+table, th, td
+{
+  border: 1px solid pink;
+}
+
+input[type=text]
+{
+  width: 11%;
+  padding: 10px 15px;
+  border: 2px dotted pink;
+  border-radius: 5px;
+  background-color: #ffe5f3;
+}
+
+input[type=password]
+{
+  width: 10%;
+  padding: 10px 15px;
+  border: 2px dotted pink;
+  border-radius: 5px;
+  background-color: #ffe5f3;
+}
+
+input[type=number]
+{
+  width: 10%;
+  padding: 10px 15px;
+  border: 2px dotted pink;
+  border-radius: 5px;
+  background-color: #ffe5f3;
+}
+
+body
+{
+  background-color: #ffd3ec;
+  color: #560330;
+}
+
+input[type=submit]{
+  padding: 10px 15px;
+  border: 2px outset pink;
+  border-radius: 5px;
+  background-color: #ffe5f3;
+}
+
+input[type=submit]:active{
+  padding: 10px 15px;
+  border: 2px inset pink;
+  border-radius: 5px;
+  background-color: #ffe5f3;
+}
+
+input[type=reset]{
+  padding: 10px 15px;
+  border: 2px outset pink;
+  border-radius: 5px;
+  background-color: #ffe5f3;
+}
+
+input[type=reset]:active{
+  padding: 10px 15px;
+  border: 2px inset pink;
+  border-radius: 5px;
+  background-color: #ffe5f3;
+}

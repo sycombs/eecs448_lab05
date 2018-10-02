@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title> Web store! </title>
+    <script type="text/javascript"
+            src="formChecker.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <h1> Buy My Stuff </h1>
+
+
+  <form name="shopForm" action="customerBackend.php" onsubmit="return validate()" method="post">
+
+    E-mail: <input type="text" name="email"> <br>
+    Password: <input type="password" name="password"> <br><br>
+
+    <img src="Lion.jpg" alt="lion" width="330" height="300"> <br>
+
+    Buy a lion! $599.99 <br>
+    Quantity: <input type="number" name="lion_q" value="0" min="0"><br><br>
+
+    <img src="Tiger.jpg" alt="tiger" width="370" height="300"> <br>
+
+    Buy a tiger! $499.99 <br>
+    Quantity: <input type="number" name="tiger_q" value="0" min="0"><br><br>
+
+    <img src="Bear.jpg" alt="bear" width="300" height="400"> <br>
+
+    Buy a horse! $2.99 <br>
+    Quantity: <input type="number" name="horse_q" value="0" min="0"><br><br>
+
+    Shipping Option <br>
+    <input type="radio" name="shipping" value="free7day" checked> Free 7 Day <br>
+    <input type="radio" name="shipping" value="50overnight"> $50.00 Overnight <br>
+    <input type="radio" name="shipping" value="5threeday"> $5.00 3 Day <br> <br>
+
+    <input type="reset">
+    <input type="submit" value="Submit">
+
+  </form>
+
+  </body>
+
+</html>
